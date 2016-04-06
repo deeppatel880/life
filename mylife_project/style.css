@@ -1,0 +1,59 @@
+*{
+	font-family: "Comic Sans", Comic Sans MS, cursive
+}
+
+body{
+	margin: 0 auto;
+	text-align: center;
+	background-color: #2ecc71;
+}
+.nav{
+	width: 100%;
+	background-color: #3498db;
+	padding: 20px;
+	float: left;
+}
+
+.nav a {
+	margin: 0px;
+	transition-duration:0.4s;
+	text-decoration: none;
+	margin-left: 25px;
+	color: #FFF
+}
+
+.nav a:hover{
+	transition-duration:0.4s;
+	background: #FFF;
+	color: #3498db;
+	padding: 25px;
+	border-bottom: 3px solid #3498db;
+
+}
+
+.header h1{
+	margin-top: 30px;
+	color: #FFF;
+}
+
+.middle{
+
+	color: #FFF;
+	padding-bottom: 20px;
+}
+
+.middle p{
+	margin: 0 auto;
+	font-size: 20px;
+	width: 80%;
+	text-align: center;
+}
+
+img{
+	transition-duration:0.4s;
+}
+
+img:hover{
+	transition-duration:0.4s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
